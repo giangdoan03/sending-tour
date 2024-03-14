@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5">
+    <title>送り出し機関視察ツアー</title>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" media="all" href="./css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style type="text/css">
+        @media print, screen and (min-width: 768px) {
+            body {
+                min-width: 1200px;
+            }
+        }
+    </style>
+
+</head>
+
+<body style="background: #ffffff">
+
+
+<main id="main_wrap">
+    <!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+
+    <!--font noto sans jp-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+
+
+    <!-- ↑ 編集不可領域 ↑ -->
+
+
+    <!-- ↓ 編集可能領域 ↓ -->
+
+
+    <link rel="stylesheet" media="all" href="./css/sending-tour.css"/>
+    <script type="text/javascript" src="./js/sending-tour.js"></script>
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'fii2jzq',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement, t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout), tk = d.createElement("script"), f = false,
+                s = d.getElementsByTagName("script")[0], a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {
+                }
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <div class="space-remove">
+
+    </div>
+    <div id="sending-tour" class="sending-tour">
+        <div class="banner">
+            <div class="title-bg-dark">
+                <p>ベトナム送出機関紹介サイト連携</p>
+            </div>
+            <div class="banner-desc">
+                <div class="text-small">
+                    ベトナムへの渡航解禁の今がチャンス！
+                </div>
+                <div class="text-medium">
+                    <div class="icon">
+                        <img class="sizes" src="images/sending-tour/sending_nv_icon_flag_vn.png" alt="">
+                    </div>
+                    <p>ベトナム送出機関</p>
+                </div>
+                <div class="text-big">
+                    <p>視察ツアー</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-grid">
+            <div class="image-desc-banner">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="images/sending-tour/sending_navi_sp_01.png 2x">
+                    <source media="(min-width: 768px)" srcset="images/sending-tour/sending_navi_pc_01.png 2x">
+                    <img class="sizes" src="images/sending-tour/sending_navi_pc_01.png" alt="">
+                </picture>
+            </div>
+            <div class="supervising-organization">
+                <div class="inner">
+                    <div class="bl-top">
+                        <div class="title">
+                            <p>監理団体様の</p>
+                        </div>
+                        <div class="title-primary">
+                            <p>こんな悩み解決します！</p>
+                        </div>
+                        <div class="box-icon">
+                            <div class="icon-boy">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_boy.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_boy.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_boy.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="icon-girl">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_girl.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_girl.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_girl.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item">
+                            <div class="icon">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_green.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_green.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_green.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    受入機関からのオーダーが増え、法令の変わったため、<span class="text-green">提携送出機関を増やしたい。</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_red.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_red.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_red.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    これから本格的に技能実習の活動をする。<span class="text-green">どんな送出機関と提携</span>したらよいか分からない。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_green.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_green.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_green.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    実習生が負担する手数料問題を重要視しているため、<span class="text-green">安心できる送出機関</span>を知りたい。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_red.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_red.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_red.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    オンラインの打ち合わせだけでは、送出機関の<span class="text-green">実際の取り組み</span>が正しく把握できない。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_green.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_green.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_green.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    効率的に複数の送出機関を視察できるなら、<span class="text-green">訪越して視察</span>したい。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_icon_red.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_icon_red.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_green.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    送出機関側からの情報だけでは、その真意が分からないため、<span class="text-green">第三者目線でアドバイス</span>して欲しい。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="merit">
+            <div class="inner">
+                <div class="label-bl">
+                    <p>MERIT</p>
+                </div>
+                <div class="title-bl">
+                    <p>ツアーに参加するメリット</p>
+                </div>
+                <div class="list-item">
+                    <div class="item">
+                        <div class="text-label">
+                            <p>MERIT <span class="number">01</span></p>
+                        </div>
+                        <div class="content-mr">
+                            <div class="text-desc">
+                                <p>相談や見積は無料。</p>
+                            </div>
+                            <div class="image-desc">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_merit_01.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_merit_01.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_merit_01.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-label">
+                            <p>MERIT <span class="number">02</span></p>
+                        </div>
+                        <div class="content-mr">
+                            <div class="text-desc">
+                                <p>送出機関の勤務経験があり、グループ会社株式会社キャムテックが運営する送出機関紹介サイト「<span class="text-green">SendingNavi For Vietnam</span>」の現役取材員が対応するため、最新で正確な情報が把握可能。
+                                </p>
+                            </div>
+                            <div class="image-desc">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_merit_03.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_merit_03.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_merit_03.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-label">
+                            <p>MERIT <span class="number">03</span></p>
+                        </div>
+                        <div class="content-mr">
+                            <div class="text-desc">
+                                <p>送出機関は社長・会長に直接接触し、アポイント取るため、TOPの意向がその場で把握できる。</p>
+                            </div>
+                            <div class="image-desc">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-label">
+                            <p>MERIT <span class="number">04</span></p>
+                        </div>
+                        <div class="content-mr">
+                            <div class="text-desc">
+                                <p>視察（打ち合わせ）時に、通訳が必要な場合でも追加料金なしで対応。</p>
+                            </div>
+                            <div class="image-desc">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-label">
+                            <p>MERIT <span class="number">05</span></p>
+                        </div>
+                        <div class="content-mr">
+                            <div class="text-desc">
+                                <p>既に視察したい送出機関が決まっていない場合も、重要視されるポイントを踏まえた上で、第三者目線で視察先の提案。</p>
+                            </div>
+                            <div class="image-desc">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-label">
+                            <p>MERIT <span class="number">06</span></p>
+                        </div>
+                        <div class="content-mr">
+                            <div class="text-desc">
+                                <p>日本円での支払いが可能。</p>
+                            </div>
+                            <div class="image-desc">
+                                <picture>
+                                    <source media="(max-width: 767px)"
+                                            srcset="images/sending-tour/sending_navi_merit_02.png 2x">
+                                    <source media="(min-width: 768px)"
+                                            srcset="images/sending-tour/sending_navi_merit_02.png 2x">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_merit_02.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="example">
+            <div class="inner">
+                <div class="label-bl">
+                    <p>EXAMPLE</p>
+                </div>
+                <div class="title-bl">
+                    <p>モデルコース例</p>
+                </div>
+                <div class="example-content">
+                    <div class="flex-pc">
+                        <div class="table-info">
+                            <div class="table">
+                                <div class="line">
+                                    <div class="info-l">
+                                        <p>視察エリア</p>
+                                    </div>
+                                    <div class="info-right">
+                                        <p>ハノイ近郊</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="info-l">
+                                        <p>コース</p>
+                                    </div>
+                                    <div class="info-right">
+                                        <p>一日</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="info-l">
+                                        <p>業種</p>
+                                    </div>
+                                    <div class="info-right">
+                                        <p>介護業</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="info-l">
+                                        <p>視察目的</p>
+                                    </div>
+                                    <div class="info-right">
+                                        <p>新しい送出機関と取引するために、研修施設や日本語学校など直接で自分の目で見て選定基準を作る</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="info-l">
+                                        <p>希望訪問先</p>
+                                    </div>
+                                    <div class="info-right">
+                                        <p>介護業に強い送出機関、研修施設、日本語学校、寮</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bl-timeline">
+                            <div class="table">
+                                <div class="line">
+                                    <div class="icon">
+                                        <img src="./images/sending-tour/sending_navi_icon_radio.png" alt="">
+                                    </div>
+                                    <div class="hour">
+                                        <p>9:00</p>
+                                    </div>
+                                    <div class="text-desc">
+                                        <p>ホテルにお迎え</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="message">
+                                        <p>送出機関2,3社を回ります</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="icon">
+                                        <img src="./images/sending-tour/sending_navi_icon_radio.png" alt="">
+                                    </div>
+                                    <div class="hour">
+                                        <p>12:00</p>
+                                    </div>
+                                    <div class="text-desc">
+                                        <p>昼食</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="icon">
+                                        <img src="./images/sending-tour/sending_navi_icon_radio.png" alt="">
+                                    </div>
+                                    <div class="hour">
+                                        <p>13:00</p>
+                                    </div>
+                                    <div class="text-desc">
+                                        <p>移動開始</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="message">
+                                        <p>送出機関2,3社を回ります</p>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="icon">
+                                        <img src="./images/sending-tour/sending_navi_icon_radio.png" alt="">
+                                    </div>
+                                    <div class="hour">
+                                        <p>17:00</p>
+                                    </div>
+                                    <div class="text-desc">
+                                        <p>ホテルまでお見送り</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-image">
+                        <div class="image-item">
+                            <picture>
+                                <source media="(max-width: 767px)"
+                                        srcset="images/sending-tour/sending_navi_image_list_01.png 2x">
+                                <source media="(min-width: 768px)"
+                                        srcset="images/sending-tour/sending_navi_image_list_01.png 2x">
+                                <img class="sizes" src="images/sending-tour/sending_navi_image_list_01.png" alt="">
+                            </picture>
+                            <div class="text-desc">
+                                <p>研修施設で学ぶ実習生の授業も見学可能です</p>
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <picture>
+                                <source media="(max-width: 767px)"
+                                        srcset="images/sending-tour/sending_navi_image_list_02.png 2x">
+                                <source media="(min-width: 768px)"
+                                        srcset="images/sending-tour/sending_navi_image_list_02.png 2x">
+                                <img class="sizes" src="images/sending-tour/sending_navi_image_list_02.png" alt="">
+                            </picture>
+                            <div class="text-desc">
+                                <p>お昼はがおすすめのベトナム料理をピックアップ <br>
+                                    ※極力ご希望に沿ってお連れいたします</p>
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <picture>
+                                <source media="(max-width: 767px)"
+                                        srcset="images/sending-tour/sending_navi_image_list_03.png 2x">
+                                <source media="(min-width: 768px)"
+                                        srcset="images/sending-tour/sending_navi_image_list_03.png 2x">
+                                <img class="sizes" src="images/sending-tour/sending_navi_image_list_03.png" alt="">
+                            </picture>
+                            <div class="text-desc">
+                                <p>送出機関の中で働く方々の雰囲気も見ることができます</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flow">
+            <div class="inner">
+                <div class="label-bl">
+                    <p>FLOW</p>
+                </div>
+                <div class="title-bl">
+                    <p>サービスの流れ</p>
+                </div>
+                <div class="flow-content">
+                    <div class="flow-list">
+                        <div class="flow-item step-1">
+                            <div class="label">
+                                <div class="text">STEP 1</div>
+                                <div class="icon">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_mail.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text-desc">
+                                <div class="box-step">
+                                    <div class="title-primary">
+                                        <p>お問い合わせ</p>
+                                    </div>
+                                    <div class="content">
+                                        <p>お問い合わせ・ご相談フォームからお気軽にお問い合わせください。</p>
+                                        <p>こんな情報が欲しい、こんなことも可能かなど、小さなことでもお気軽にご相談ください!</p>
+                                    </div>
+                                    <div class="btn-contact">
+                                        <img class="sizes" src="images/sending-tour/sending_navi_icon_mail_red.png"
+                                             alt="">
+                                        <p>お問い合わせ相談</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-desc-green">
+                            <p>ここまで完全無料！！</p>
+                        </div>
+                        <div class="flow-item step-2">
+                            <div class="label">
+                                <div class="text">STEP 2</div>
+                                <div class="icon">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_mess.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text-desc">
+                                <div class="title-primary">
+                                    <p>ご要望のヒアリング</p>
+                                </div>
+                                <div class="content">
+                                    <p>ご要望を詳しくお伺いし、工程表とお見積りを作成します。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flow-item step-3">
+                            <div class="label">
+                                <div class="text">STEP 3</div>
+                                <div class="icon">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_folder.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text-desc">
+                                <div class="title-primary">
+                                    <p>お支払い</p>
+                                </div>
+                                <div class="content">
+                                    <p>ご納得頂けましたら、契約書の取り交わしと代金の振込をお願い致します。<br>
+                                        ※銀行送金のみとなります。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flow-item step-4">
+                            <div class="label">
+                                <div class="text">STEP 4</div>
+                                <div class="icon">
+                                    <img class="sizes" src="images/sending-tour/sending_navi_icon_flag.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text-desc">
+                                <div class="title-primary">
+                                    <p>現地にてツアー催行</p>
+                                </div>
+                                <div class="content">
+                                    <p>当日、ご宿泊先のホテルや空港などご指定の場所にお迎えに行きます。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="price">
+            <div class="inner">
+                <div class="label-bl">
+                    <p>PRICE</p>
+                </div>
+                <div class="title-bl">
+                    <p>料金</p>
+                </div>
+                <div class="price-content">
+                    <div class="title-box">
+                        <div class="title-bold">
+                            <p>コーディネーター同行のみ</p>
+                        </div>
+                        <div class="title-normal">
+                            <p>車両はお客様にて手配いただきます</p>
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <div class="card">
+                            <div class="title">
+                                <p>一日コース</p>
+                                <p>（8 時間以内）</p>
+                            </div>
+                            <div class="content">
+                                <p>30,000 円</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="title">
+                                <p>半日コース</p>
+                                <p>（8 時間以内）</p>
+                            </div>
+                            <div class="content">
+                                <p>18,000 円</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-info">
+                        <div class="title">
+                            <p>お支払い方法</p>
+                        </div>
+                        <div class="content">
+                            <p>
+                                ベトナムの銀行口座に日本円にて送金のみとなります。<br>
+                                現地での現金受け渡しによるお支払いはできません。<br>
+                                銀行送金手数料はお客様負担となります。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="btn-contact">
+                        <img class="sizes" src="images/sending-tour/sending_navi_icon_mail_red.png" alt="">
+                        <p>お問い合わせ相談</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="note">
+            <div class="bg-blur">
+                <div class="inner">
+                    <div class="title">
+                        <p>ご注意事項・キャンセル</p>
+                    </div>
+                    <div class="note-content">
+                        <div class="note-content-bg">
+                            <div class="title-primary">ご注意事項</div>
+                            <ul>
+                                <li>・車両はお客様にて手配いただきます</li>
+                                <li>・実施地域はハノイおよびその周辺地域に限ります。</li>
+                                <li>・現地指定場所集合、現地場所解散が基本プランとなっております。</li>
+                                <li>・ベトナムのサービスのため、別途付加価値税(VAT)が発生します。</li>
+                                <li>・駐車場、有料道路、空港入場料など実費で発生するものなどはお客様負担となります。</li>
+                                <li>・昼食はお客様負担となります。</li>
+                                <li>・弊社の紹介によって契約締結した送出機関との損害が発生した場合について、弊社は一切の責任を負いかねますのであらかじめご了承ください。</li>
+                                <li>・工程中の事故やケガについての弊社からの補償はございませんので、各自の傷害保険等でご対応ください。</li>
+                                <li>・所持品の管理: 紛失・破損・盗難については責任を負いかねます。ツアー参加中はお荷物、お手回り品にはお客様ご自身で管理し、十分ご注意ください。</li>
+                            </ul>
+
+                            <div class="title-primary">当社の免責事項</div>
+                            <p>当社のサービスを受けられた際、以下の事由によりお客様が被られた損害などに関して当社はその責任を負いません。</p>
+                            <ul>
+                                <li>・天災、戦乱、暴動などに起因する場合</li>
+                                <li>・現地公安など政府関連機関の公務、命令に起因する場合</li>
+                                <li>・運輸機関、宿泊施設および第3機関のサービス内容の変更に起因する場合</li>
+                                <li>・お客様、または第3者の故意、または過失に起因する場合</li>
+                            </ul>
+                            <p>当日の天候、交通などの事由により当社表示のサービス内容から時間、内容が予告なく変更される場合があります。</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-sending-form">
+            <div class="wpcf7 js" id="wpcf7-f15-p2-o1" lang="en-US" dir="ltr">
+                <div class="screen-reader-response">
+                    <p role="status" aria-live="polite" aria-atomic="true"></p>
+                    <ul></ul>
+                </div>
+                <form action="/tonggiang/?page_id=2#wpcf7-f15-p2-o1" method="post" class="wpcf7-form init"
+                      aria-label="Contact form" novalidate="novalidate" data-status="init">
+                    <div style="display: none;">
+                        <input type="hidden" name="_wpcf7" value="15">
+                        <input type="hidden" name="_wpcf7_version" value="5.9">
+                        <input type="hidden" name="_wpcf7_locale" value="en_US">
+                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f15-p2-o1">
+                        <input type="hidden" name="_wpcf7_container_post" value="2">
+                        <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                    </div>
+                    <div class="inner">
+                        <div class="title-form">
+                            <p>お問い合わせ
+                            </p>
+                        </div>
+                        <div class="sending-tour-form">
+                            <div class="line company-name">
+                                <div class="bl-desc">
+                                    <div class="text">
+                                        <p>企業名
+                                        </p>
+                                    </div>
+                                    <div class="label">
+                                        <p>必須
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="text-907">
+                                        <input size="40"
+                                               class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required company-name-input"
+                                               id="company-name-input"
+                                               aria-required="true"
+                                               aria-invalid="false"
+                                               value=""
+                                               type="text"
+                                               name="text-907"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line person-charge-name">
+                                <div class="bl-desc">
+                                    <div class="text">
+                                        <p>ご担当者名
+                                        </p>
+                                    </div>
+                                    <div class="label">
+                                        <p>必須
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="text-908">
+                                        <input size="40"
+                                               class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required person-input"
+                                               id="person-input"
+                                               aria-required="true"
+                                               aria-invalid="false"
+                                               value=""
+                                               type="text"
+                                               name="text-908"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line email">
+                                <div class="bl-desc">
+                                    <div class="text">
+                                        <p>メールアドレス
+                                        </p>
+                                    </div>
+                                    <div class="label">
+                                        <p>必須
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="email-707">
+                                        <input size="40"
+                                               class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email email-input"
+                                               id="email-input"
+                                               aria-required="true"
+                                               aria-invalid="false"
+                                               value=""
+                                               type="email"
+                                               name="email-707"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line phone-number">
+                                <div class="bl-desc">
+                                    <div class="text">
+                                        <p>電話番号
+                                        </p>
+                                    </div>
+                                    <div class="label">
+                                        <p>必須
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="text-908">
+                                        <input size="40"
+                                               class="wpcf7-form-control wpcf7-text phone-number-input"
+                                               id="phone-number-input"
+                                               aria-invalid="false"
+                                               value=""
+                                               type="text"
+                                               name="text-908"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line number-people">
+                                <div class="bl-desc">
+                                    <div class="text">
+                                        <p>参加予定人数
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="number-867"><input
+                                            class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number number-people-input"
+                                            id="number-people-input" aria-invalid="false" value="" type="number"
+                                            name="number-867"></span><br>
+                                        <span class="text-unit">名</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line datetime">
+                                <div class="bl-desc">
+                                    <div class="text">
+                                        <p>希望予定日
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="radio-150"><span
+                                            class="wpcf7-form-control wpcf7-radio confirm" id="confirm"><span
+                                            class="wpcf7-list-item first last"><label><input type="radio"
+                                                                                             name="radio-150" value="確定"
+                                                                                             checked="checked"><span
+                                            class="wpcf7-list-item-label">確定</span></label></span></span></span>
+                                    </p>
+                                </div>
+                                <div class="input wrap-datetime">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="text-101"><input size="40"
+                                                                                                         class="wpcf7-form-control wpcf7-text year-input"
+                                                                                                         id="year-input"
+                                                                                                         aria-invalid="false"
+                                                                                                         value=""
+                                                                                                         type="text"
+                                                                                                         name="text-101"></span><br>
+                                        <span class="text-unit">年</span><br>
+                                        <span class="wpcf7-form-control-wrap" data-name="text-102"><input size="40"
+                                                                                                          class="wpcf7-form-control wpcf7-text month-input"
+                                                                                                          id="month-input"
+                                                                                                          aria-invalid="false"
+                                                                                                          value=""
+                                                                                                          type="text"
+                                                                                                          name="text-102"></span><br>
+                                        <span class="text-unit">月</span><br>
+                                        <span class="wpcf7-form-control-wrap" data-name="text-103"><input size="40"
+                                                                                                          class="wpcf7-form-control wpcf7-text day-input"
+                                                                                                          id="day-input"
+                                                                                                          aria-invalid="false"
+                                                                                                          value=""
+                                                                                                          type="text"
+                                                                                                          name="text-103"></span><br>
+                                        <span class="text-unit">日</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line unsettled">
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="radio-154"><span
+                                            class="wpcf7-form-control wpcf7-radio unsettled-b" id="unsettled-b"><span
+                                            class="wpcf7-list-item first last"><label><input type="radio"
+                                                                                             name="radio-154"
+                                                                                             value="未確定"
+                                                                                             checked="checked"><span
+                                            class="wpcf7-list-item-label">未確定</span></label></span></span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line message">
+                                <div class="bl-desc">
+                                    <div class="text">
+                                        <p>メッセージ入力欄
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="textarea-699"><textarea
+                                            cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea message-input"
+                                            id="message-input" aria-invalid="false"
+                                            name="textarea-699"></textarea></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line policy">
+                                <div class="input">
+                                    <p><span class="wpcf7-form-control-wrap" data-name="checkbox-516"><span
+                                            class="wpcf7-form-control wpcf7-checkbox policy-ck" id="policy-ck"><span
+                                            class="wpcf7-list-item first last"><label><input type="checkbox"
+                                                                                             name="checkbox-516[]"
+                                                                                             value=""><span
+                                            class="wpcf7-list-item-label"></span></label></span></span></span>
+                                    </p>
+                                </div>
+                                <div class="text-desc">
+                                    <p><span class="text-green">プライバシーポリシー</span>の個人情報の取り扱いに同意する
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <p>goole captcha
+                                </p>
+                            </div>
+                            <div class="submit">
+                                <p><input class="wpcf7-form-control wpcf7-submit has-spinner submit_b" id="submit_b"
+                                          type="submit" value="確認"><span class="wpcf7-spinner"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</main>
+
+<!-- ↑ 編集可能領域 ↑ -->
+
+
+<!-- ↓ 編集不可領域 ↓ -->
+
+</body>
+</html>
