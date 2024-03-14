@@ -780,6 +780,7 @@ body {
     border-radius: 8px;
     padding: 29px 16px;
     margin-top: 50px;
+    background: #ffffff;
 }
 #sending-tour .price .btn-contact {
     text-align: center;
@@ -1643,5 +1644,44 @@ body {
 @media(min-width:532px) and (max-width:767px) {
     #sending-tour .flow .flow-content .flow-list:before {
         height: 80vh;
+    }
+}
+
+@media(min-width:320px) and (max-width:370px) {
+    #sending-tour .banner .banner-desc .text-big {
+        font-size: 16vw;
+    }
+    #sending-tour .banner .banner-desc .text-big:before {
+        left: -3px;
+        bottom: -7px;
+        width: 9%;
+    }
+    #sending-tour .banner .banner-desc .text-big:after {
+        width: 10%;
+    }
+    #sending-tour .banner .banner-desc .text-small {
+        font-size: 4vw;
+        max-width: 330px;
+    }
+    #sending-tour .image-desc-banner picture {
+        margin-top: -90px;
+    }
+    #sending-tour .supervising-organization .list-item .item .content {
+        font-size: 4vw;
+    }
+    #sending-tour .example .bl-timeline .table .line .message {
+        font-size: 4vw;
+    }
+    #sending-tour .example .bl-timeline .table .line .text-desc {
+        font-size: 4.4vw;
+    }
+    #sending-tour .title-bl {
+        font-size: 7vw;
+    }
+    #sending-tour .banner {
+        height: 361px;
+    }
+    #sending-tour .banner .banner-desc {
+        padding-top: 36px;
     }
 }
